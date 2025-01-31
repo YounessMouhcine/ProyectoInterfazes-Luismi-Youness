@@ -1,26 +1,30 @@
-# Proyecto4VGYM
+# GYM4V Project - LuisMi & Youness
 
-This project is a web application built with Angular, designed to manage gym monitors and activities. It is intended for use on tablet/laptop interfaces.
+This is an Angular-based project developed for the "Interface Development" course.
 
-## Description
+## About the Project
 
-This application provides the following features:
+The main objective of this project is to provide a user-friendly platform for managing both the gym activities and instructors for a fictional gym called **4V Gym**. Through the interface, users can:
 
-- **Activities Management**: Allows the user to select a date and manage fixed activity blocks. Users can add, edit, or delete activities, and each activity shows the assigned monitors and activity type (e.g., BodyPump with 2 monitors, Spinning with 1 monitor).
-- **Monitors Management**: Displays current gym monitors in a carousel format with a search functionality. New monitors can be added, edited, or deleted.
-- **Design Fidelity**: The application is implemented to match the provided Figma design as closely as possible.
+- View scheduled activities for each day.
+- Add, edit, or remove activities.
+- Explore gym instructors' details.
+- Search and manage instructor data.
 
-## Features
+The project is built using **Angular**, incorporating:
+- **TypeScript** for logic.
+- **HTML** for structure and content.
+- **SCSS** for styling.
 
-- **Header**: The application always has a header with the name and logo of the gym.
-- **Navigation**: At the bottom, there is a selector to choose between "Activities" and "Monitors".
-- **Activity Blocks**: Each day has three fixed activity blocks, with the possibility to add, edit, or delete activities.
-- **Monitors Carousel**: Displays a carousel of current gym monitors with a search bar for easy navigation.
-- **Mock Backend**: The backend uses mock services with lists of activities and monitors that are initialized when the app starts. Alternatively, you can use your API if available.
+For more information on Angular, refer to the official [Angular Documentation](https://angular.dev/tools/cli).
 
-## Development Server
+## Setup Guide
 
-To start a local development server, run:
+### Cloning the Repository
 
-```bash
-ng serve
+You have two options to get the project:
+
+1. **Clone the repository using Git:**
+
+   ```bash
+   git clone https://github.com/luismi-you/4V-Gym.git
