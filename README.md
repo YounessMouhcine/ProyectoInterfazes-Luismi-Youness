@@ -1,59 +1,26 @@
 # Proyecto4VGYM
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+This project is a web application built with Angular, designed to manage gym monitors and activities. It is intended for use on tablet/laptop interfaces.
 
-## Development server
+## Description
+
+This application provides the following features:
+
+- **Activities Management**: Allows the user to select a date and manage fixed activity blocks. Users can add, edit, or delete activities, and each activity shows the assigned monitors and activity type (e.g., BodyPump with 2 monitors, Spinning with 1 monitor).
+- **Monitors Management**: Displays current gym monitors in a carousel format with a search functionality. New monitors can be added, edited, or deleted.
+- **Design Fidelity**: The application is implemented to match the provided Figma design as closely as possible.
+
+## Features
+
+- **Header**: The application always has a header with the name and logo of the gym.
+- **Navigation**: At the bottom, there is a selector to choose between "Activities" and "Monitors".
+- **Activity Blocks**: Each day has three fixed activity blocks, with the possibility to add, edit, or delete activities.
+- **Monitors Carousel**: Displays a carousel of current gym monitors with a search bar for easy navigation.
+- **Mock Backend**: The backend uses mock services with lists of activities and monitors that are initialized when the app starts. Alternatively, you can use your API if available.
+
+## Development Server
 
 To start a local development server, run:
 
 ```bash
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
