@@ -58,7 +58,11 @@ Navigate to the project folder and install the required dependencies:
 cd gym-management-interface
 npm install
 
-### 3. Run the Development Server:
+### 3. Install bootstrap:
+```bash
+npm install bootstrap
+
+### 4. Run the Development Server:
 Start the Angular development server:
 
 ```bash
