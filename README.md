@@ -50,7 +50,7 @@ To run this project locally, follow the steps below:
 
 ```bash
 git clone https://github.com/YounessLuisMi/gym-management-interface.git
-
+```
 ### 2. Install Dependencies:
 Navigate to the project folder and install the required dependencies:
 
