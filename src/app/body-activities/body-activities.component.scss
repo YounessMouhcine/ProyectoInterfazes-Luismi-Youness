@@ -1,0 +1,27 @@
+.imagenMonitor{
+    height: 100px;
+    width: 100px;
+}
+.icono-pequeno {
+    width: 50px;  // Ajusta el tamaño de la imagen
+    height: 30px; // Ajusta el tamaño de la imagen
+}
+.margenInferior{
+    margin-bottom: 55%;
+}
+.full-height {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+.card-Editar {
+    width: 100%;
+    max-width: 350px; /* Reducido el tamaño de la card */
+}
+.ocultar{
+    visibility: hidden;
+}
+.mostrar{
+    visibility: visible !important;
+}

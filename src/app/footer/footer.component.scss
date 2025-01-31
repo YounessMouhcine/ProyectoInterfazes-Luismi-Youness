@@ -1,0 +1,12 @@
+.icono-pequeno {
+    width: 30px;  // Ajusta el tamaño de la imagen
+    height: 30px; // Ajusta el tamaño de la imagen
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 10px 0;  /* Ajusta el espaciado del footer */
+    z-index: 1000;
+}

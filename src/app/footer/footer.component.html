@@ -1,0 +1,16 @@
+<footer class="py-3 bg-dark-subtle">
+    <div class="container">
+        <div class="row">
+            <!-- Columna izquierda: Icono + ACTIVIDADES -->
+            <div class="col-6 d-flex align-items-center" id="actividad">
+                <img src="/icons/calendar.png" alt="Icono Actividades" class="icono-pequeno"> <!-- Imagen de actividades -->
+                <span (click)=(getActividad()) class="mx-2">ACTIVIDADES</span>
+            </div>
+            <!-- Columna derecha: Icono + MONITORES -->
+            <div class="col-6 d-flex align-items-center justify-content-end" id="monitores">
+                <img src="/icons/persona.png" alt="Icono Actividades" class="icono-pequeno">
+                <span (click)=(getMonitores()) class="mx-2">MONITORES</span>
+            </div>
+        </div>
+    </div>
+</footer>
